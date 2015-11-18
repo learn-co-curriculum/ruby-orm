@@ -2,14 +2,14 @@
 
 ## Objectives
 
-1. Understand the concept of an ORM and why we build them.
-2. Understand the code that will map your Ruby objects to a database. 
+1. Explain the concept of an ORM and why we build them.
+2. Describe the code that will map your Ruby objects to a database. 
 
 ## What is ORM?
 
-Object Relational Mapping (ORM) is technique of accessing a relational database using an object-oriented programming language. Object Relational Mapping is a way for our Ruby programs to manage database data by "mapping" database tables to classes and instances of classes to rows in those tables.
+Object Relational Mapping (ORM) is the technique of accessing a relational database using an object-oriented programming language. Object Relational Mapping is a way for our Ruby programs to manage database data by "mapping" database tables to classes and instances of classes to rows in those tables.
 
-There is no special programming magic to an ORM––it is simple a manner in which we implement the code that connects our Ruby program to our database. For example, you may have seen code that connects your Ruby program to a given database:
+There is no special programming magic to an ORM––it is simply a manner in which we implement the code that connects our Ruby program to our database. For example, you may have seen code that connects your Ruby program to a given database:
 
 ```ruby
 database_connection = SQLite3::Database.new('db/my_database.db')
