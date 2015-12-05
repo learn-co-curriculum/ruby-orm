@@ -105,7 +105,7 @@ Here we establish the connection to our database, create two new cats and then i
 
 Now, thanks to our `Cats#save` method, we have some re-usable code––code that we can easily use again and again to "save" or `INSERT`, cat records into the database. 
 
-This is just one example of the types of methods we will learn to build as we create our ORM. *Don't worry too much about the code shown above.* We'll learn more about how and why we define our ORM methods later one. This is just a preview of the kind of method we will write to tell our classes how to talk to our database.
+This is just one example of the types of methods we will learn to build as we create our ORM. *Don't worry too much about the code shown above.* We'll learn more about how and why we define our ORM methods later on. This is just a preview of the kind of method we will write to tell our classes how to talk to our database.
 
 ### Logical Design 
 
@@ -116,5 +116,3 @@ Instead, we follow the convention: classes are mapped to or equated with tables 
 If we have a `Cat` class, we have a cats table. Cat instances get stored as rows in the cats table. 
 
 Further, we don't have to make our own, potentially confusing or non-sensical decision about what kinds of methods we will build to help our classes communicate with our database. Just like the `#save` method we previewed above, we will learn to build a series of common, conventional methods that our programs can rely on again and again to communicate with our database. 
-
-<a href='https://learn.co/lessons/ruby-orm' data-visibility='hidden'>View this lesson on Learn.co</a>
