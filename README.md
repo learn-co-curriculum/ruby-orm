@@ -64,7 +64,7 @@ The repetition would also occur for other SQL statements we might want to execut
 
 As programers, you might remember, we are lazy. We don't like to repeat ourselves if we can avoid it. Repetition qualifies as a "code smell". Instead of repeating the same, or similar, code any time we want to perform common actions against our database, we can write a series of methods to abstract that behavior. 
 
-For example, we can write a `#save` method on our `Cats` class that handles the common action of `INSERT`ing data into the database. 
+For example, we can write a `.save` method on our `Cats` class that handles the common action of `INSERT`ing data into the database. 
 
 ```ruby
 class Cat
@@ -116,3 +116,5 @@ Instead, we follow the convention: classes are mapped to or equated with tables 
 If we have a `Cat` class, we have a cats table. Cat instances get stored as rows in the cats table. 
 
 Further, we don't have to make our own, potentially confusing or non-sensical decision about what kinds of methods we will build to help our classes communicate with our database. Just like the `#save` method we previewed above, we will learn to build a series of common, conventional methods that our programs can rely on again and again to communicate with our database. 
+
+<a href='https://learn.co/lessons/ruby-orm' data-visibility='hidden'>View this lesson on Learn.co</a>
