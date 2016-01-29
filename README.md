@@ -113,4 +113,4 @@ If we have a `Cat` class, we have a cats table. Cat instances get stored as rows
 
 Further, we don't have to make our own potentially confusing or non-sensical decision about what kinds of methods we will build to help our classes communicate with our database. Just like the `.save` method we previewed above, we will learn to build a series of common, conventional methods that our programs can rely on again and again to communicate with our database.
 
-<a href='https://learn.co/lessons/ruby-orm' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-orm' title='Object Relational Mapping'>Object Relational Mapping</a> on Learn.co and start learning to code for free.</p>
