@@ -59,7 +59,7 @@ Notice that in the lines of code above, there is a lot of repetition. In fact, t
 
 The repetition would also occur for other SQL statements we might want to execute against our database. Any `SELECT` queries, for example, would repeat the call to the `database_connection.execute` method and differ only in the specifics of what data we are selecting from which table.
 
-As programers, you might remember, we are lazy. We don't like to repeat ourselves if we can avoid it. Repetition qualifies as a "code smell". Instead of repeating the same, or similar, code any time we want to perform common actions against our database, we can write a series of methods to abstract that behavior.
+As programmers, you might remember, we are lazy. We don't like to repeat ourselves if we can avoid it. Repetition qualifies as a "code smell". Instead of repeating the same, or similar, code any time we want to perform common actions against our database, we can write a series of methods to abstract that behavior.
 
 For example, we can write a `.save` method on our `Cats` class that handles the common action of `INSERT`ing data into the database.
 
@@ -113,4 +113,4 @@ If we have a `Cat` class, we have a cats table. Cat instances get stored as rows
 
 Further, we don't have to make our own potentially confusing or non-sensical decision about what kinds of methods we will build to help our classes communicate with our database. Just like the `.save` method we previewed above, we will learn to build a series of common, conventional methods that our programs can rely on again and again to communicate with our database.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-orm' title='Object Relational Mapping'>Object Relational Mapping</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-orm'>Why an ORM is Useful</a> on Learn.co and start learning to code for free.</p>
